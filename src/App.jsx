@@ -36,7 +36,7 @@ function App() {
 
 	return (
 		<div>
-			<h1>Stop Watch</h1>
+			<h1>Stopwatch</h1>
 			<div>
 				<span>Time: </span>
 				{hr > 0 && <span>{hr}:</span>}
