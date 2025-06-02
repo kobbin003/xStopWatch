@@ -3,7 +3,7 @@ import "./App.css";
 import { timeFormatter } from "./utils/timeFormatter";
 
 function App() {
-	const [seconds, setSeconds] = useState(0);
+	const [seconds, setSeconds] = useState(36000);
 	const [isRunning, setIsRunning] = useState(false);
 	const { hr, min, sec } = timeFormatter(seconds);
 	const handleStart = () => {
